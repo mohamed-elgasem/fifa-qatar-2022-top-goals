@@ -1,0 +1,119 @@
+.mobile{
+    width: 100%;
+    background-color: #8b1538;
+    height: 99vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (min-width: 767px){
+    .mobile{
+      width: 33%;
+	  height: 120vh;
+    }  
+  }
+.nav{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.nav-2{
+    margin: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-2 li {
+    list-style: none;
+}
+.nav-2 li a{
+    text-decoration: none;
+    color: white;
+    background-color: #c38b9c;
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+.nav .btn{
+    background-color: #fd014c;
+    border-radius: 30px;
+    color: white;
+}
+.nav-2 .active{
+    background-color: #fa4b00;
+}
+.name{
+    margin: 40px 20px -15px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.name h4{
+    font-size: 17px;
+}
+.players .p1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c38b9c;
+    padding: 6px 16px;
+    border-radius: 7px;
+    margin: 15px 20px;
+    color: white;
+}
+.players .p1 h4{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.mobile hr{
+    margin-left: 4%;
+    width: 92%;
+    height: 2px;
+    color: white;
+}
+
+.mobile-nav .icons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #c38b9c;
+    padding: 19px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.mobile-nav .icons label{
+    font-size: 30px;
+    color: white;
+}
+
+.mobile-nav .icons .fa-poll{
+    color: #fd014c;
+}
+
+
+/* Small  */
+@media (min-width: 768px){
+    .mobile{
+      width: 33%;
+    } 
+  }
+  
+  /* Medium */
+  @media (min-width: 992px){
+    .mobile{
+      width: 33%;
+    }  
+  }
+  
+  /* Large  */
+  @media (min-width: 1200px){
+    .mobile{
+      width: 33%;
+    }  
+  }
